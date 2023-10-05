@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.right-column {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+#registrationForm {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.record-container{
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px;
+}
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <div class="container">
+        <div class="left-column">
+            <form id="registrationForm">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name"><br>
+                <div class="error-container">
+                    <span style="color: red;" id="nError" class="error"></span><br>  
+                </div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email"><br>
+                <div class="error-container">
+                    <span style="color: red;" id="eError" class="error"></span><br>
+                </div>
+                <input type="submit" value="Submit">
+                <input type="hidden" id="editIndex" value="-1">
+            </form>
+        </div>
+        <div class="right-column" id="records-row">
+            <div id="resultDisplay">
+                <h2>Registration Results:</h2>
+            </div>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
